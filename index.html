@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Menu</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    ⚠️ وبسایت ریمیکس آیکون داخل ایران فیلتر میباشد، در صورتی که به فیلتر شکن دسترسی نداشتید یا آیکون ها برای شما نمایش داده نشد، از لینک های زیر برای نمایش آیکون ها استفاده کنید.
+
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://lib.arvancloud.ir/font-awesome/6.3.0/css/all.css"
+    />
+    -->
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <!-- 
+  Contact With Soufilearn 👇
+  ✅ Bale: @soufi_learn && @soufi_joon
+  ✅ Rubika: @soufi_learn
+  ✅ Telegram: @soufi_joon
+  ✅ Instagram: https://instagram.com/soufi_learn
+  -->
+
+  <body>
+    <div class="menu-container">
+      <!--========== Bottom Menu List ==========-->
+      <ul class="menu-list">
+        <li>
+          <a href="#home" data-title="Home" class="menu-link active">
+            <i class="ri-home-4-line ri-xl"></i>
+            <!--  
+            استفاده از آیکون های کتابخانه‌ی فونت اوسوم، درصورت بارگزاری نشدن آیکون ها 👇
+
+            <i class="fa fa-home"></i>
+            -->
+          </a>
+        </li>
+
+        <li>
+          <a href="#about" data-title="About" class="menu-link">
+            <i class="ri-user-line ri-xl"></i>
+            <!--  
+            استفاده از آیکون های کتابخانه‌ی فونت اوسوم، درصورت بارگزاری نشدن آیکون ها 👇
+
+            <i class="fa fa-user"></i>
+            -->
+          </a>
+        </li>
+
+        <li>
+          <a href="#services" data-title="Services" class="menu-link">
+            <i class="ri-service-line ri-xl"></i>
+            <!--  
+            استفاده از آیکون های کتابخانه‌ی فونت اوسوم، درصورت بارگزاری نشدن آیکون ها 👇
+             
+            <i class="fa fa-heart"></i>
+            -->
+          </a>
+        </li>
+
+        <li>
+          <a href="#portfolio" data-title="Portfolio" class="menu-link">
+            <i class="ri-briefcase-line ri-xl"></i>
+            <!--  
+            استفاده از آیکون های کتابخانه‌ی فونت اوسوم، درصورت بارگزاری نشدن آیکون ها 👇
+             
+            <i class="fa fa-briefcase"></i>
+            -->
+          </a>
+        </li>
+
+        <li>
+          <a href="#contact" data-title="Contact" class="menu-link"
+            ><i class="ri-chat-1-line ri-xl"></i>
+            <!--  
+            استفاده از آیکون های کتابخانه‌ی فونت اوسوم، درصورت بارگزاری نشدن آیکون ها 👇
+             
+            <i class="fa fa-comment"></i>
+            -->
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!--========== Page Sections ==========-->
+    <section class="page-section" id="home">
+      <h1 class="section-title">Home</h1>
+    </section>
+
+    <section class="page-section" id="about">
+      <h1 class="section-title">About</h1>
+    </section>
+
+    <section class="page-section" id="services">
+      <h1 class="section-title">Services</h1>
+    </section>
+
+    <section class="page-section" id="portfolio">
+      <h1 class="section-title">Portfolio</h1>
+    </section>
+
+    <section class="page-section" id="contact">
+      <h1 class="section-title">Contact</h1>
+    </section>
+
+    <!-- Javascript Code For Handle Active Link 👇 -->
+    <script>
+      const menuLinks = document.querySelectorAll(".menu-link");
+
+      menuLinks.forEach((link) => {
+        link.addEventListener("click", (e) => {
+          menuLinks.forEach((link) => link.classList.remove("active"));
+          link.classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>

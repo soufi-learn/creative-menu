@@ -1,0 +1,108 @@
+/* Reset Browser Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Start Project Styles */
+.menu-container {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 25px;
+  border-radius: 50px;
+  background: #cdd6e5cc;
+  backdrop-filter: blur(7px);
+}
+
+.menu-container .menu-list {
+  display: flex;
+  gap: 25px;
+}
+
+.menu-container .menu-list .menu-link {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  position: relative;
+}
+
+/* Elements with the "active" class will receive these styles.
+   The "active" class is added via JavaScript. */
+.menu-container .menu-list .menu-link:hover,
+.menu-container .menu-list .menu-link.active {
+  background: #639af2;
+  color: white;
+}
+
+/* Create Label On Links */
+.menu-container .menu-list .menu-link::after {
+  content: attr(data-title);
+  position: absolute;
+  top: -80%;
+  background: #84b0f5;
+  border-radius: 5px;
+  padding: 5px 1rem;
+  opacity: 0;
+  color: black;
+}
+
+/* create Bottom Angle */
+.menu-container .menu-list .menu-link::before {
+  content: "";
+  position: absolute;
+  top: -22%;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #84b0f5;
+  opacity: 0;
+}
+
+/* show label on link hover */
+.menu-container .menu-list .menu-link:hover::after,
+.menu-container .menu-list .menu-link:hover::before {
+  opacity: 1;
+}
+
+.menu-container .menu-list .menu-link::after,
+.menu-container .menu-list .menu-link::before {
+  pointer-events: none;
+}
+
+/* Sections Styles */
+.page-section {
+  height: 100dvh;
+  padding-top: 45px;
+}
+
+.page-section .section-title {
+  text-align: center;
+  color: #172627;
+  font-size: 3rem;
+}
