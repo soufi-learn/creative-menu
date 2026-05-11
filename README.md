@@ -1,25 +1,25 @@
-# ⭐ Navigation Bar Project
+# Creative Navigation Bar (HTML & CSS)
 
-This project was developed as a practical exercise for the **HTML & CSS Course** offered by Soufilearn.
+This project teaches you how to build a **creative Navigation Bar** using **HTML & CSS** in a step-by-step tutorial series on the **SofiLearn** Aparat channel.
 
-You can find the course playlist here: [HTML CSS Course](https://www.aparat.com/playlist/14433711).
+## 🎬 Tutorial Series (Aparat)
 
----
+- **Episode 1:** https://www.aparat.com/v/lynd7s6  
+- **Episode 2:** https://www.aparat.com/v/izyx53c  
+- **Episode 3 (Final):** https://www.aparat.com/v/zyd4f60  
 
-## 🔑 About This Project
+## ✨ Project Features
 
-This project serves as a hands-on capstone to enhance your HTML and CSS proficiency. By working through the code, you will significantly improve your practical skills in front-end development.
+- Navigation designed with **HTML & CSS**
+- **Active State** styling for menu items
+- Easy to extend into a **Single Page Website**
 
-Video tutorials and walkthroughs for this project are available on our [Aparat Channel](https://www.aparat.com/v/lynd7s6).
+## 📝 Practice Ideas
 
----
-
-## 🛠️ Project Technologies
-
-*   HTML5
-*   CSS3
-
----
+- Change colors and fonts
+- Add more menu items
+- Convert it into a full page with different sections
+- Add new effects (Hover / Animations)
 
 ## 📞 Connect With Us
 
@@ -30,45 +30,8 @@ Stay updated and engage with the Soufilearn community:
 *   **Telegram:** [@soufi\_joon](https://t.me/soufi_joon)
 *   **Instagram:** [@soufi\_learn](https://instagram.com/soufi_learn)
 
+  
+## 🩵 Credits
 
-
-
-این پروژه مربوط به آموزش ساخت یک Navigation Bar خلاقانه با HTML & CSS هست که در کانال یوتیوب صوفی‌لِرن به صورت مرحله‌به‌مرحله تدریس شده.
-
-🎬 لینک‌های دسترسی به آموزش‌ها در آپارات:
-
-📌 قسمت 1:
-https://youtu.be/jPx0PuP7k-s
-
-📌 قسمت 2:
-https://youtu.be/XPLDXlb3h0Y
-
-📌 قسمت 3 (قسمت نهایی):
-https://youtu.be/PZPWAA9mWII
-
-✨ ویژگی‌های این پروژه:
-
-• طراحی منوی خلاقانه فقط با HTML & CSS
-• استایل‌دهی حالت فعال آیتم‌ها (Active State)
-• قابل توسعه برای تبدیل به یک وب‌سایت تک‌صفحه‌ای
-
-📝 نکات آموزشی برای یادگیرندگان:
-
-برای تمرین بیشتر پیشنهاد می‌شود:
-
-• رنگ‌بندی و فونت‌ها را تغییر دهید
-• آیتم‌های بیشتری به منو اضافه کنید
-• پروژه را تبدیل به یک صفحه کامل با سکشن‌های مختلف کنید
-• افکت‌های Hover یا انیمیشن‌های جدید اضافه کنید
-
-📡 راه‌های ارتباطی و دسترسی:
-
-📸 اینستاگرام:
-https://www.instagram.com/soufi_learn
-
-💬 گروه پرسش و پاسخ تلگرام
-(هر هفته چالش‌های فرانت‌اند با جوایز نقدی)
-https://t.me/html_css_soufi
-
-این پروژه توسط صوفی‌لِرن تهیه و تدریس شده.
-با عشق برای یادگیری بهتر شما 💙
+Created and taught by **SofiLearn**  
+With love for better learning 💙
