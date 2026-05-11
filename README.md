@@ -1,6 +1,8 @@
-# Creative Navigation Bar (HTML & CSS)
+## Creative Navigation Bar (HTML & CSS)
 
-This project teaches you how to build a **creative Navigation Bar** using **HTML & CSS** in a step-by-step tutorial series on the **SofiLearn** Aparat channel.
+This project was developed as a practical exercise for the **HTML & CSS Course** offered by Soufilearn.
+
+You can find the course playlist here: [HTML CSS Course](https://www.aparat.com/playlist/14433711).
 
 ## 🎬 Tutorial Series (Aparat)
 
