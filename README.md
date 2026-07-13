@@ -2,13 +2,13 @@
 
 This project was developed as a practical exercise for the **HTML & CSS Course** offered by Soufilearn.
 
-You can find the course playlist here: [HTML CSS Course](https://www.aparat.com/playlist/14433711).
+You can find the course playlist here: [HTML CSS Course](https://youtube.com/playlist?list=PLltyZsSwXMdFKILc5aXbG7fMTtRzBUld4&si=t7iloa5XTpUguPQk).
 
-## 🎬 Tutorial Series (Aparat)
+## 🎬 Tutorial Series (Youtube)
 
-- **Episode 1:** https://www.aparat.com/v/lynd7s6  
-- **Episode 2:** https://www.aparat.com/v/izyx53c  
-- **Episode 3 (Final):** https://www.aparat.com/v/zyd4f60  
+- **Episode 1:** https://youtu.be/jPx0PuP7k-s?si=eVWdtrbwsSVe3-q6  
+- **Episode 2:** https://youtu.be/XPLDXlb3h0Y?si=rV0pGZ5j4AQzVwHt
+- **Episode 3 (Final):** https://youtu.be/PZPWAA9mWII?si=4BwD77D-WYNrW2au  
 
 ## ✨ Project Features
 
@@ -27,8 +27,6 @@ You can find the course playlist here: [HTML CSS Course](https://www.aparat.com/
 
 Stay updated and engage with the Soufilearn community:
 
-*   **Bale:** [@soufi\_learn](https://ble.ir/soufi_learn)
-*   **Rubika:** [@soufi\_learn](https://rubika.ir/soufi_learn)
 *   **Telegram:** [@soufi\_joon](https://t.me/soufi_joon)
 *   **Instagram:** [@soufi\_learn](https://instagram.com/soufi_learn)
 
